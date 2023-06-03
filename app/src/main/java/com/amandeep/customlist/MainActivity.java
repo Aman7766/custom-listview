@@ -1,13 +1,17 @@
 package com.amandeep.customlist;
 
+import android.content.Intent;
 import android.os.Bundle;
+
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ListView;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import java.util.ArrayList;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements AdapterView.OnItemClickListener{
     ListView lv;
     ArrayList<Item> data=new ArrayList<>();
     Item item;
@@ -27,9 +31,18 @@ public class MainActivity extends AppCompatActivity {
         }
         MyAdapter adapter=new MyAdapter(this,data);
         lv.setAdapter(adapter);
+        lv.setOnItemClickListener(this);
 
 
 
+
+
+    }
+
+    @Override
+    public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+        Intent intent=new Intent(MainActivity.this,DetailActivity.class);
+        startActivity(intent);
 
     }
 }
