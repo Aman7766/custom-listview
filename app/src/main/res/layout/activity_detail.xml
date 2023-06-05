@@ -14,6 +14,8 @@
             android:text="@string/sample"
             android:textSize="24sp"
             android:textStyle="bold"
+            android:id="@+id/dettitle"
+            android:textColor="@color/lavender"
             android:layout_gravity="center"
             >
         </TextView>
@@ -31,10 +33,59 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:id="@+id/dtimg"
-                android:src="@drawable/maggi">
+                >
             </ImageView>
 
+
         </androidx.cardview.widget.CardView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Duration:"
+            android:textColor="@color/lavender"
+            android:textStyle="bold"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="30dp"
+            android:textSize="18sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="time"
+            android:layout_marginStart="10dp"
+            android:textSize="16sp"
+            android:id="@+id/detailTime"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ingredients:"
+            android:textColor="@color/lavender"
+            android:textStyle="bold"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:textSize="18sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginStart="10dp"
+            android:textSize="16sp"
+            android:id="@+id/detailIngredients"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Steps:"
+            android:textColor="@color/lavender"
+            android:textStyle="bold"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:textSize="18sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginStart="10dp"
+            android:textSize="16sp"
+            android:id="@+id/detailDesc"/>
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
