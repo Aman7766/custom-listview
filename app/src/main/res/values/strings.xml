@@ -1,69 +1,105 @@
 <resources>
     <string name="app_name">Custom List</string>
     <string name="sample">sample</string>
-    <string name="pastaIngredients">Pasta
-\nCream Cheese
-\nParmesan Cheese
-\nOlive Oil
-\nGarlic
-\nSalt Pepper</string>
-    <string name="pastaDesc">Cook your pasta until al dente
-\nSaute’ garlic in olive oil until fragrant
-\nAdd cream cheese, pasta cooking water, parmesan, and stir well
-\nDrain and add pasta to the skillet
-\nToss until well combined, adding some pasta water if needed</string>
+    <string name="pastaIngredients">Pasta noodles
+\nWater
+\nSalt
+\nSauce or ingredients for sauce
+\nOptional toppings </string>
+    <string name="pastaDesc">1 Boil a pot of water and add salt to taste.
+\n2 Cook the pasta noodles according to the package instructions until al dente.
+\n3 While the pasta is cooking, prepare the sauce or ingredients for the sauce in a separate pan.
+\n4 Drain the cooked pasta and add it to the sauce.
+\n5 Toss the pasta in the sauce until it is well coated.
+\n6 Optional: Add any additional toppings or seasonings as desired.
+\n7 Serve the pasta hot and enjoy your delicious homemade meal.</string>
     //maggi
-    <string name="maggiIngredients">Maggi Noodles
+    <string name="maggiIngredients">Maggi noodles
+\nMaggi seasoning or flavoring sachet
 \nWater
-\nMaggi Masala</string>
-    <string name="maggieDesc">Add one and half cup of water
-\nAdd maggi noodles and boil it
-\nAdd the maggi masala on to it
-\nWait for 2 mins
-\nMaggi is ready!</string>
+    </string>
+    <string name="maggieDesc">1 Boil water in a pot.
+\n2 Add the Maggi noodles to the boiling water.
+\n3 Cook the noodles for about 2-3 minutes or until they are soft and tender.
+\n4 Drain most of the water, leaving a little to mix with the seasoning.
+\n5 Add the Maggi seasoning or flavoring sachet to the noodles and mix well.
+\n6 Optional: You can also add cooked vegetables, eggs, or other toppings to enhance the flavor and nutritional value.
+\n7 Serve the Maggi noodles hot and enjoy your quick and easy meal.</string>
     //cake
-    <string name="cakeIngredients">Maggi Noodles
-\nWater
-\nMaggi Masala</string>
-    <string name="cakeDesc">Add one and half cup of water
-Add maggi noodles and boil it
-Add the maggi masala on to it
-\nWait for 2 mins
-\nMaggi is ready!</string>
+    <string name="cakeIngredients">Flour\nSugar\nEggs\nButter or oil\nBaking powder or baking soda\nMilk or water\nFlavorings (e.g., vanilla extract, almond extract)\nSalt (a pinch)</string>
+    <string name="cakeDesc">1 Preheat oven.
+\n2 Grease and flour cake pans.
+\n3 Mix dry ingredients in a bowl.
+\n4 Beat eggs and mix with melted butter/oil, milk/water, and flavorings in a separate bowl.
+\n5 Combine dry and wet ingredients, mix until smooth.
+\n6 Pour batter into pans.
+\n7 Bake in preheated oven for specified time.
+\n8 Cool in pans for 10 minutes, then transfer to wire rack to cool completely.
+\n9 Frost and decorate.
+\n10 Slice and enjoy!</string>
     //pancake
-    <string name="pancakeIngredients">Maggi Noodles
-\nWater
-\nMaggi Masala</string>
-    <string name="pancakeDesc">Add one and half cup of water
-Add maggi noodles and boil it
-Add the maggi masala on to it
-\nWait for 2 mins
-\nMaggi is ready!</string>
+    <string name="pancakeIngredients">Flour
+\nSugar (optional)
+\nBaking powder
+\nSalt
+\nEggs
+\nMilk
+\nButter or oil (for cooking)
+\nVanilla extract (optional)</string>
+    <string name="pancakeDesc">1 Mix dry ingredients in a bowl.
+\n2 In a separate bowl, mix wet ingredients.
+\n3 Combine wet and dry ingredients, stir until just combined.
+\n4 Heat a greased pan or griddle over medium heat.
+\n5 Pour 1/4 cup of batter onto the pan for each pancake.
+\n6 Cook until bubbles form on the surface, then flip and cook the other side until golden brown.
+\n7 Remove from the pan and repeat with the remaining batter.
+\n8 Serve warm with toppings of your choice.</string>
     //pizza
-    <string name="pizzaIngredients">Maggi Noodles
-\nWater
-\nMaggi Masala</string>
-    <string name="pizzaDesc">Add one and half cup of water
-Add maggi noodles and boil it
-Add the maggi masala on to it
-\nWait for 2 mins
-\nMaggi is ready!</string>
+    <string name="pizzaIngredients">
+        Pizza dough or pre-made pizza crust
+\nPizza sauce or marinara sauce
+\nCheese (mozzarella is commonly used)
+\nToppings (such as pepperoni, mushrooms, onions, bell peppers, etc.)
+\nOlive oil (for drizzling)
+    </string>
+    <string name="pizzaDesc">1 Preheat your oven to the highest temperature possible (usually around 475°F or 245°C).
+\n2 Roll out or shape the pizza dough into your desired size and thickness.
+\n3 Place the pizza dough on a greased or parchment-lined baking sheet or pizza stone.
+\n4 Spread pizza sauce evenly over the dough, leaving a border for the crust.
+\n5 Sprinkle shredded cheese evenly over the sauce.
+\n6 Add your desired toppings, such as pepperoni, mushrooms, onions, bell peppers, etc.
+\n7 Drizzle a little olive oil over the toppings.
+\n8 Place the pizza in the preheated oven and bake for about 10-15 minutes, or until the crust is golden and the cheese is melted and bubbly.
+\n9 Remove the pizza from the oven and let it cool for a few minutes before slicing and serving.</string>
     //burgers
-    <string name="burgerIngredients">Maggi Noodles
-\nWater
-\nMaggi Masala</string>
-    <string name="burgerDesc">Add one and half cup of water
-\nAdd maggi noodles and boil it
-\nAdd the maggi masala on to it
-\nWait for 2 mins
-\nMaggi is ready!</string>
+    <string name="burgerIngredients">Ground beef (or alternative like turkey, chicken, or veggie patties)
+\nHamburger buns
+\nLettuce
+\nTomato slices
+\nOnion slices
+\nPickles
+\nCheese slices (optional)
+\nCondiments (such as ketchup, mustard, mayonnaise)</string>
+    <string name="burgerDesc">1 Preheat a grill or stovetop pan over medium-high heat.
+\n2 Shape ground beef into patties, season with salt and pepper.
+\n3 Cook the patties on the grill or pan, flipping once, until desired level of doneness (usually around 4-5 minutes per side for medium).
+\n4 While the patties cook, lightly toast the burger buns.
+\n5 Assemble the burger by placing the cooked patty on the bottom bun.
+\n6 Add desired toppings like lettuce, tomato slices, onion slices, pickles, cheese, and condiments.
+\n7 Place the top bun on the assembled burger.
+\n8 Serve immediately and enjoy your delicious homemade burger!</string>
     //fries
-    <string name="friesIngredients">Maggi Noodles
-\nWater
-\nMaggi Masala</string>
-    <string name="friesDesc">Add one and half cup of water
-\nAdd maggi noodles and boil it
-\nAdd the maggi masala on to it
-\nWait for 2 mins
-\nMaggi is ready!</string>
+    <string name="friesIngredients">Potatoes
+\nCooking oil (such as vegetable or canola oil)
+\nSalt</string>
+    <string name="friesDesc">1 Preheat the oven to 425°F (220°C).
+\n2 Peel and cut potatoes into desired fry shape (thin or thick).
+\n3 Rinse the cut potatoes in cold water to remove excess starch.
+\n4 Pat dry the potatoes using a kitchen towel or paper towels.
+\n5 Toss the potatoes with cooking oil until evenly coated.
+\n6 Arrange the potatoes in a single layer on a baking sheet.
+\n7 Sprinkle salt over the potatoes.
+\n8 Bake in the preheated oven for about 20-25 minutes, flipping once halfway through, until the fries are golden brown and crispy.
+\n9 Remove from the oven and let them cool for a few minutes.
+\n10 Serve the fries hot and enjoy them as a delicious side dish or snack</string>
 </resources>

@@ -26,6 +26,9 @@ public class DetailActivity extends AppCompatActivity {
         if(intent!=null)
         {
             title.setText(intent.getStringExtra("title"));
+            detailtime.setText(intent.getStringExtra("time"));
+            deting.setText(intent.getIntExtra("ing",0));
+            detDec.setText(intent.getIntExtra("desc",0));
             imageView.setImageResource(intent.getIntExtra("image",2131165322));
 
         }

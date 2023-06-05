@@ -17,7 +17,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     Item item;
     String[] title = {"Pasta", "Maggi", "Cake", "Pancake", "Pizza","Burgers", "Fries"};
     String[] timeList = {"30 mins", "2 mins", "45 mins","10 mins", "60 mins", "45 mins", "30 mins"};
-
+    int[] ingredientList = {R.string.pastaIngredients, R.string.maggiIngredients,R.string.cakeIngredients,R.string.pancakeIngredients,R.string.pizzaIngredients, R.string.burgerIngredients, R.string.friesIngredients};
+    int[] descList = {R.string.pastaDesc, R.string.maggieDesc, R.string.cakeDesc,R.string.pancakeDesc,R.string.pizzaDesc, R.string.burgerDesc, R.string.friesDesc};
     int[] imageList = {R.drawable.pasta,R.drawable.maggi, R.drawable.cake, R.drawable.pancake, R.drawable.pizza, R.drawable.burger, R.drawable.fries};
 
     @Override
@@ -44,6 +45,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         intent.putExtra("image",imageList[i]);
         intent.putExtra("title",title[i]);
         intent.putExtra("time",timeList[i]);
+        intent.putExtra("ing",ingredientList[i]);
+        intent.putExtra("desc",descList[i]);
 
         startActivity(intent);
 
